@@ -43,7 +43,7 @@
 }
 
 .box {
-    background-color: #ff7f50;
+    /* background-color: #ff7f50; */
     grid-column: 1/2;
     grid-row: 1/3;
     padding-left: 30px;
@@ -115,6 +115,6 @@
 }
 @media(max-width:420px){
     .box .animated_text{
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
 }

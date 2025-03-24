@@ -42,6 +42,9 @@
 
     .bar ul {
         display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 20px;
     }
 
     .bar .active {
@@ -51,23 +54,25 @@
         align-items: center;
         position: absolute;
         top: 48px;
-        background-color: aqua;
-        width: 200px;
+        background: linear-gradient(45deg, #ff7f50, #1e90ff, #1e50ff, #854f, #15a369);
+        opacity: .95;
+        width: 100%;
         left: 0;
         height: calc(100vh - 50px);
-        gap: 10px;
+        gap: 40px;
         /* animation: options 2s timing-function alternate iteration-count direction fill-mode; */
         animation: options .52s ease-in-out;
     }
 
     @keyframes options {
         0% {
-            transform: translateX(-100px);
+            transform: translateX(-500px);
             transition: ease-in;
         }
 
         100% {
             transform: translateX(0);
+            
         }
     }
 }

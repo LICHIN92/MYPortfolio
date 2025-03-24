@@ -27,9 +27,9 @@ const Navbar = () => {
               {menuOpen?< IoCloseSharp onClick={()=>setMenu(false)}/>:<CgMenuGridR onClick={()=>setMenu(true)}/>}
               </button>
             <ul className={menuOpen?'active':''}>
-                <li>about </li>
-                <li>work</li>
-                <li>contact</li>
+                <li onClick={()=>setMenu(false)}>about </li>
+                <li onClick={()=>setMenu(false)}>work</li>
+                <li onClick={()=>setMenu(false)}>contact</li>
             </ul>
         </div>
     </div>
