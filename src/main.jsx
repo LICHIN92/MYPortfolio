@@ -4,11 +4,13 @@ import './index.css'
 import Navbar from './navbar/Navbar.jsx'
 import First from './FirstPage/First.jsx'
 import Introduction from './INTRODUCTION/Introduction.jsx'
+import Contact from './contact/Contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar/>
     <First/>
     <Introduction/>
+    <Contact/>
   </StrictMode>,
 )
