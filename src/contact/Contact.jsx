@@ -7,9 +7,9 @@ import { RxGithubLogo } from "react-icons/rx";
 const Contact = () => {
     return (
         <div className='contact gap-14'>
-            <div className=' flex flex-col justify-center gap-5 first'>
-                <p className='uppercase'>Get in touch</p>
-                <h1 className='uppercase font-bold text-6xl'>contact</h1>
+            <div className=' flex flex-col justify-center gap-5 first rounded-xl'>
+                <p className='uppercase ps-2'>Get in touch</p>
+                <h1 className='uppercase ps-2 font-bold text-6xl'>contact</h1>
                 <div className='flex justify-center gap-5 uppercase  w-100'>
                     <div className='flex items-center justify-center gap-1 social'>
                         <span>email</span>
