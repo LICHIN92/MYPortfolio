@@ -116,7 +116,7 @@ const Introduction = () => {
                     </div>
                 </div>
 
-                <div className="skill  flex flex-col items-center flex-wrap gap-14 pt-2">
+                <div className="skill  flex flex-col items-center flex-wrap gap-14 pt-2 pb-5">
                     <h3 className='text-center text-xl font-bold capitalize'>Tools and Software</h3>
                     <div className="dd flex flex-wrap gap-5  px-5 justify-center sm:gap-10">
 

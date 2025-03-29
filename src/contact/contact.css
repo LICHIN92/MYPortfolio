@@ -6,7 +6,7 @@
 .contact{
     background-color: #050816;
     max-width: 100vw;
-    height: 70vh;
+    min-height: 100vh;
     color: wheat;
     display: flex;
     justify-content: center;
@@ -34,4 +34,20 @@
     width: 500px;
     height: 300px;
     background-color: #100D25;
+}
+.touch img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:1034px){
+    .contact{
+        flex-direction: column;
+        padding-block: 20px;
+    }
+}
+@media(max-width:528px){
+    .touch,.first{
+        width: 95vw;
+    }
 }

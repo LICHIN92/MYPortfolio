@@ -3,19 +3,23 @@ import './contact.css'
 import { MdOutlineEmail } from "react-icons/md";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { RxGithubLogo } from "react-icons/rx";
+import contactus from '../assets/contactus.jpg'
 
 const Contact = () => {
     return (
-        <div className='contact gap-14'>
+        <div className='contact gap-5 py-20'>
             <div className=' flex flex-col justify-center gap-5 first rounded-xl'>
                 <p className='uppercase ps-2'>Get in touch</p>
-                <h1 className='uppercase ps-2 font-bold text-6xl'>contact</h1>
-                <div className='flex justify-center gap-5 uppercase  w-100'>
-                    <div className='flex items-center justify-center gap-1 social'>
+                <h1 className='uppercase ps-2 font-bold text-4xl'>contact</h1>
+                <div className='flex flex-wrap  justify-center gap-5 uppercase  w-100'>
+                    <div className='flex items-center justify-center gap-1 social'
+                     onClick={() => window.location.href = "mailto:lichinchandra143@gmail.com"}>
                         <span>email</span>
                         <MdOutlineEmail className='icon'/>
                     </div>
-                    <div className='flex items-center justify-center gap-1 social'>
+                    <div className='flex items-center justify-center gap-1 social'
+                    onClick={() => window.open('https://www.linkedin.com/in/lichin-c-55186b128/', '_blank')}
+>
 
                         <span>linkedin</span>
                         <AiOutlineLinkedin className='icon'/>
@@ -27,8 +31,8 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className='touch'>
-                <img src="" alt="lm" />
+            <div className='touch object-cover'>
+                <img src={contactus} alt="lm" />
             </div>
         </div>
     )

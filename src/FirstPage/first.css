@@ -42,8 +42,20 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, auto);
+    animation: boxs 1s  linear ;
 }
-
+@keyframes boxs{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+        transition: alls ease-out;
+    }
+    100%{
+        opacity: 1;
+        transition: alls ease-in;
+        transform: translateY(0);
+    }
+}
 .box {
     /* background-color: #ff7f50; */
     grid-column: 1/2;
