@@ -24,7 +24,7 @@ import post from '../assets/postman.png'
 
 const Introduction = () => {
     return (
-        <div className="introduction">
+        <div className="introduction"  id='about'>
             <h6 className='text-lg '>INTRODUCTION</h6>
             <div className="overview">
                 <h3>OVERVIEW</h3>
