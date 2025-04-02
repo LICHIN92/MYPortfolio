@@ -7,8 +7,8 @@ import contactus from '../assets/contactus.jpg'
 
 const Contact = () => {
     return (
-        <div className='contact gap-5 py-20' id='contact' >
-            <div className=' flex flex-col justify-center gap-5 first rounded-xl'>
+        <div className='contact gap-5 py-20' >
+            <div className=' flex flex-col justify-center gap-5 first rounded-xl' id='contact'>
                 <p className='uppercase ps-2'>Get in touch</p>
                 <h1 className='uppercase ps-2 font-bold text-4xl'>contact</h1>
                 <div className='flex flex-wrap  justify-center gap-5 uppercase  w-100'>
