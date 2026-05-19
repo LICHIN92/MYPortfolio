@@ -21,7 +21,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollX > 600) {
         setBgColor('#352566'); // Background color after scrolling
       } else {
         setBgColor('transparent'); // Default background color
