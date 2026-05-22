@@ -1,6 +1,5 @@
 import React from 'react'
-import './First.css'
-// import pic from '../assets/IMG_20230912_133100.jpg'
+import './first.css'
 import pic from '../assets/IMG_20250427_110234.jpeg'
 const First = () => {
   return (
